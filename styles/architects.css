@@ -234,7 +234,7 @@ padding-bottom: 38px;
      .teams-container ,
      .facts-card-container ,
      .features,
-     .sponsors-img-container{
+     .sponsors-img-container {
         flex-direction: column;
      } 
      .teams-img-container{
@@ -254,7 +254,9 @@ padding-bottom: 38px;
     .facts-card-container {
     gap: 20px;
     }
-    
+    footer{
+      max-width: 450px;
+    }
  }
  /* tablet divices */
  @media screen and (min-width:576px) and (max-width:960px){
