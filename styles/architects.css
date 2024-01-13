@@ -176,6 +176,7 @@ main{
      header{padding: 20px;}
      nav ,
      .teams-container ,
+     .facts-card-container ,
      .sponsors-img-container{
         flex-direction: column;
      } 
