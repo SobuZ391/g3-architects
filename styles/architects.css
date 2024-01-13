@@ -13,6 +13,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 20px;
 
 }
 /* Header section styles */
@@ -69,6 +70,52 @@ nav  li{
     margin-top: 20px;
     width: 100%;
  }
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+ /* teams styles */
+ .teams-container{
+    display: flex;
+   align-items: center;
+ }
+ .teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+ }
+ .teams-content{
+  padding-left: 70px;
+  padding-right: 70px;
+ }
+ .teams-title{
+    font-size: 2.8rem;
+    color: #727272;
+    font-weight: 500;
+  width: 70%;
+
+ }
+ .title-span1{
+    color: #131313;
+    font-weight: 700;
+ }
+ .title-span2{
+    color:  #FF900E;
+    font-weight: 700;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
  /* responsive media querries */
  /* mobile devices */
  @media screen and (max-width:576px){
